@@ -19,5 +19,3 @@ def get_netology_h1(timeout=8) -> str | None:
                 print('Превышен timeout, установите значение выше')
             else:
                 print(ex)
-        finally:
-            session.close()
